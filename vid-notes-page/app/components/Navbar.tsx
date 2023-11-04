@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     const navbarSettings = 'h-16 mb-8 bg-main p-4';
-    const headerContainer = 'flex flex-row w-3/12 justify-between m-auto';
+    const headerContainer = 'w-6/12 flex flex-row sm:w-3/12 justify-between m-auto';
     const textSettings = 'text-white text-lg';
     return (
         <div className={`${navbarSettings}`}>
